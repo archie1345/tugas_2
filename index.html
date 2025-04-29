@@ -21,6 +21,7 @@
         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
         <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
         <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
       </ul>
     </div>
@@ -28,7 +29,7 @@
 </nav>
 
 <!-- Hero Section -->
-<section class="hero text-center text-light d-flex justify-content-center align-items-center">
+<section class="hero text-center d-flex justify-content-center align-items-center">
   <div>
     <h1>Hello, I'm <span class="text-primary">Archie Saskara</span></h1>
     <p class="lead">Web Developer | Designer | Student | Taekwondo Athelete</p>
@@ -71,8 +72,8 @@
         <div class="card h-100">
           <img src="project2.png" class="card-img-top" alt="Project 1">
           <div class="card-body">
-            <h5 class="card-title">Project One</h5>
-            <p class="card-text">A simple web app built with HTML, CSS, and JS.</p>
+            <h5 class="card-title">Simple Community Hub</h5>
+            <p class="card-text">A simple web app built with HTML, CSS, and JS. This is a simple blog website where people can post what they want.</p>
             <a href="https://github.com/archie1345/final_project_webdev/tree/main" class="btn btn-outline-primary">View</a>
           </div>
         </div>
@@ -80,11 +81,11 @@
       
       <div class="col-md-4">
         <div class="card h-100">
-          <img src="project1.jpg" class="card-img-top" alt="Project 1">
+          <img src="project3.png" class="card-img-top" alt="Project 1">
           <div class="card-body">
             <h5 class="card-title">Project One</h5>
-            <p class="card-text">A simple web app built with HTML, CSS, and JS.</p>
-            <a href="#" class="btn btn-outline-primary">View</a>
+            <p class="card-text">A simple portofolio website i made. This is a portofolio about me.</p>
+            <a href="https://github.com/archie1345/tugas_2" class="btn btn-outline-primary">View</a>
           </div>
         </div>
       </div>
@@ -106,36 +107,80 @@
         </h2>
         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#skillsAccordion">
           <div class="accordion-body">
-            I can build responsive layouts and beautiful designs.
+            I am a beginner but i'm learning to build responsive layouts and beautiful designs.
           </div>
         </div>
       </div>
       <!-- Add more skills here -->
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+            Java
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#skillsAccordion">
+          <div class="accordion-body">
+            I can make Intermidiate level Java program.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+            Taekwondo
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse show" data-bs-parent="#skillsAccordion">
+          <div class="accordion-body">
+            I am a Green Belt Taekwondo Athlete.
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
 
 <!-- Achievements -->
-<section id="Achievements" class="py-5 bg-light">
-    <div class="container">
-      <h2 class="text-center mb-4">Skills</h2>
-      <div class="accordion" id="skillsAccordion">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
-              HTML & CSS
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#skillsAccordion">
-            <div class="accordion-body">
-              I can build responsive layouts and beautiful designs.
-            </div>
+<section id="achievements" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Achievements</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="taekwondo1.jpg" class="card-img-top" alt="Gold Medal">
+          <div class="card-body">
+            <h5 class="card-title">Silver Medal - National Taekwondo 2025</h5>
+            <p class="card-text">Won 2st place in the Under 80Kg male Kyorugi category at the Seroja Cup 2025.</p>
           </div>
         </div>
-        <!-- Add more skills here -->
+      </div>
+      
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="taekwondo2.jpg" class="card-img-top" alt="Silver Medal">
+          <div class="card-body">
+            <h5 class="card-title">Bronze Medal - Acting Mayor's Cup Tournament 2024</h5>
+            <p class="card-text">Bronze Medalist in Taekwondo at the Acting Mayor's Cup Tournament 2024.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="mobility.jpg" class="card-img-top" alt="Web Dev Award">
+          <div class="card-body">
+            <h5 class="card-title">Mobility Student In UTHM</h5>
+            <p class="card-text">A Mobility Student in Malaysia for 1 Semester taking computer science.</p>
+          </div>
+        </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
 
 <!-- Contact -->
 <section id="contact" class="py-5">
@@ -160,12 +205,12 @@
 
 <!-- Footer -->
 <footer class="bg-dark text-light text-center py-3">
-  <p>&copy; 2025 Your Name. All rights reserved.</p>
+  <p>&copy; 2025 Archie Saskara. All rights reserved.</p>
 </footer>
 
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<script src="script.js"></script>
+<script src="index.js"></script>
 
 </body>
 </html>
