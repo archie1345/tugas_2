@@ -1,0 +1,19 @@
+/* Custom Styles */
+.hero {
+    background: url('banner.jpg') center/cover no-repeat;
+    height: 100vh;
+  }
+  
+  #about img {
+    border: 5px solid #0d6efd;
+  }
+  
+  #projects .card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+  }
+  
+  footer {
+    font-size: 0.9rem;
+  }
+  

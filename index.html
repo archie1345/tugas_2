@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">MyPortfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero text-center text-light d-flex justify-content-center align-items-center">
+  <div>
+    <h1>Hello, I'm <span class="text-primary">Archie Saskara</span></h1>
+    <p class="lead">Web Developer | Designer | Student | Taekwondo Athelete</p>
+    <a href="#contact" class="btn btn-primary mt-3">Hire Me</a>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">About Me</h2>
+    <div class="row align-items-center">
+      <div class="col-md-4 text-center">
+        <img src="profile.JPG" alt="Profile Picture" class="rounded-circle img-fluid" width="200">
+      </div>
+      <div class="col-md-8">
+        <p>Hello! I'm a passionate student and athelete learning web development. I love building responsive websites and continuously improving my skills to be a more skillful person. other than that, i'm also a hardworker proven by my achivements at multiple taekwondo tournaments.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section id="projects" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Projects</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 ">
+          <img src="project1.png" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Fitopia</h5>
+            <p class="card-text">A simple Mobile app built with flutter. This app is about workout planning app with difficulty levels and recipe ideas.</p>
+            <a href="https://github.com/archie1345/fitopia" class="btn btn-outline-primary">View</a>
+          </div>
+        </div>
+      </div>
+      <!-- Add more project cards as needed -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="project2.png" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Project One</h5>
+            <p class="card-text">A simple web app built with HTML, CSS, and JS.</p>
+            <a href="https://github.com/archie1345/final_project_webdev/tree/main" class="btn btn-outline-primary">View</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="project1.jpg" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Project One</h5>
+            <p class="card-text">A simple web app built with HTML, CSS, and JS.</p>
+            <a href="#" class="btn btn-outline-primary">View</a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- Skills -->
+<section id="skills" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Skills</h2>
+    <div class="accordion" id="skillsAccordion">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+            HTML & CSS
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#skillsAccordion">
+          <div class="accordion-body">
+            I can build responsive layouts and beautiful designs.
+          </div>
+        </div>
+      </div>
+      <!-- Add more skills here -->
+    </div>
+  </div>
+</section>
+
+<!-- Achievements -->
+<section id="Achievements" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Skills</h2>
+      <div class="accordion" id="skillsAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+              HTML & CSS
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#skillsAccordion">
+            <div class="accordion-body">
+              I can build responsive layouts and beautiful designs.
+            </div>
+          </div>
+        </div>
+        <!-- Add more skills here -->
+      </div>
+    </div>
+  </section>
+
+<!-- Contact -->
+<section id="contact" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Contact Me</h2>
+    <form id="contactForm">
+      <div class="mb-3">
+        <input type="text" class="form-control" placeholder="Your Name" required>
+      </div>
+      <div class="mb-3">
+        <input type="email" class="form-control" placeholder="Your Email" required>
+      </div>
+      <div class="mb-3">
+        <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+      </div>
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary">Send</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-light text-center py-3">
+  <p>&copy; 2025 Your Name. All rights reserved.</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
